@@ -1,58 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons>
-<addon id="repository.marcelveldt" version="1.0.2" name="Marcelveldt's BETA repository" provider-name="marcelveldt, finkleandeinhorn">
+<addons><addon id="repository.marcelveldt" name="Marcelveldt's repository" provider-name="marcelveldt" version="1.0.0">
 	
-	<extension point="xbmc.addon.repository" name="Marcelveldt's BETA repository">
-		<info compressed="false">https://raw.githubusercontent.com/kodi-community-addons/repository.marcelveldt/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/kodi-community-addons/repository.marcelveldt/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/kodi-community-addons/repository.marcelveldt/master/</datadir>
+	<extension name="Marcelveldt's repository" point="xbmc.addon.repository">
+		<info compressed="false">https://raw.githubusercontent.com/masqchips/repository.marcelveldt/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/masqchips/repository.marcelveldt/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/masqchips/repository.marcelveldt/master/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Kodi repository for beta/test versions of Marcelveldt's addons</summary>
-		<description lang="en">Kodi repository for beta/test versions of Marcelveldt's addons, for stable versions please just use the official Kodi repository. This repo is for test/beta versions of my work only</description>
+		<description lang="en">Kodi repository for beta/test versions of Marcelveldt's addons, for stable versions please just use the official Kodi repository. This repo is for versions of my work only</description>
 		<platform>all</platform>
-	</extension>
-</addon><addon id="plugin.audio.squeezebox" name="Squeezebox for Kodi" provider-name="marcelveldt" version="1.0.19">
-	<requires>
-		<import addon="xbmc.python" version="2.13.0" />
-		<import addon="xbmc.addon" version="12.0.0" />
-        <import addon="script.module.six" version="1.9.0" />
-        <import addon="script.module.requests" version="2.3.0" />
-        <import addon="script.module.simplecache" version="1.0.0" />
-	</requires>
-	<extension library="plugin.py" point="xbmc.python.pluginsource">
-        <provides>audio</provides>
-    </extension>
-	<extension library="service.py" point="xbmc.service" start="login" />
-
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Squeezelite Player for Kodi</summary>
-        <description>Turn Kodi into a squeezebox player. Playback provided by squeezelite.</description>
-		<language />
-		<platform>all</platform>
-		<license>Apache v2.0</license>
-		<forum />
-		<website />
-		<source>https://github.com/marcelveldt/plugin.audio.squeezebox</source>
-	</extension>
-</addon><addon id="plugin.audio.roon" name="Roon Control for Kodi" provider-name="marcelveldt" version="1.0.1">
-	<requires>
-		<import addon="xbmc.python" version="2.13.0" />
-		<import addon="xbmc.addon" version="12.0.0" />
-        <import addon="script.module.metadatautils" version="1.0.0" />
-        <import addon="script.module.requests" version="2.3.0" />
-	</requires>
-	<extension library="plugin.py" point="xbmc.python.pluginsource">
-        <provides>audio</provides>
-    </extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Squeezelite Player for Kodi</summary>
-        <description>Turn Kodi into a remote control for your Roon zones. No playback support.</description>
-		<language />
-		<platform>all</platform>
-		<license>Apache v2.0</license>
-		<forum />
-		<website />
-		<source>https://github.com/marcelveldt/plugin.audio.roon</source>
 	</extension>
 </addon></addons>

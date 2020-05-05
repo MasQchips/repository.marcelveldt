@@ -1,3 +1,0 @@
-https://github.com/marcelveldt/plugin.audio.spotify#master
-https://github.com/marcelveldt/plugin.audio.squeezebox#master
-https://github.com/marcelveldt/plugin.audio.roon#master
