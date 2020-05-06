@@ -1,2 +1,1 @@
-https://github.com/marcelveldt/plugin.video.balandro
 https://github.com/marcelveldt/plugin.audio.roon
