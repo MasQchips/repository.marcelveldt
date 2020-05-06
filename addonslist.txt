@@ -22,3 +22,4 @@ https://github.com/marcelveldt/plugin.audio.squeezebox#master
 https://github.com/marcelveldt/plugin.audio.roon#master
 https://github.com/marcelveldt/script.module.cherrypy#master
 https://github.com/marcelveldt/script.tv.show.next.aired#master
+https://github.com/marcelveldt/plugin.video.balandro#master
