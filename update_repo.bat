@@ -1,7 +1,6 @@
 git pull
 
 python update_repo.py repository.marcelveldt
-
 python update-directory-structure.py
 
 git add .
