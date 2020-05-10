@@ -1,0 +1,4 @@
+https://github.com/masqchips/plugin.audio.spotify#master
+https://github.com/masqchips/plugin.audio.squeezebox#master
+https://github.com/masqchips/plugin.audio.roon#master
+https://github.com/masqchips/plugin.video.balandro#master
